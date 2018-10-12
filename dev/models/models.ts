@@ -12,7 +12,7 @@ export const TaskSchema = new Schema({
     description : {
         type : String,      // description must be string
         required : true,
-        minlength : 20      // minimum length of string is 20 characters long
+        minlength : 30      // minimum length of string is 20 characters long
     },
     created_at: {
         type: Date,
